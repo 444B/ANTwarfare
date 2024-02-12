@@ -27,10 +27,10 @@ We welcome contributions to the ANTwarfare project! Whether you're looking to fi
 - **Push to the branch**: `git push origin my-new-feature`
 - **Submit a pull request**: Ensure your contributions are well-documented and include any relevant test results.
 
-For more detailed information, please refer to our [.github/CONTRIBUTING.md](link-to-contributing-guide).
+For more detailed information, please refer to our [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 ## License
-ANTwarfare is released under the GNU General Public License v3.0 (GPL-3.0), ensuring that its contributions remain open-source and freely available. For more details, see the [.github/LICENSE](LICENSE) file.
+ANTwarfare is released under the GNU General Public License v3.0 (GPL-3.0), ensuring that its contributions remain open-source and freely available. For more details, see the [LICENSE](.github/LICENSE) file.
 
 ## Acknowledgments
 - Thank you to all the contributors who have shared their insights and expertise.
