@@ -76,3 +76,4 @@ ANTwarfare is released under the GNU General Public License v3.0 (GPL-3.0), ensu
 - Thank you to all the contributors who have shared their insights and expertise.
 - Special thanks to the Foxhole community for inspiring this project.
 
+![ANTWarfare DALLE art](/markdown_assets/background.png)
