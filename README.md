@@ -1,10 +1,20 @@
 # ANTwarfare
 
 ## Introduction
-Welcome to ANTwarfare, an innovative project that applies computational modeling and Actor-Network Theory (ANT) to the complex, multiplayer game environment of Foxhole. This initiative aims to dissect and enhance understanding of the intricate interactions among players, resources, territories, and infrastructures within the game. Through ANTwarfare, we explore effective strategies, predict outcomes of specific actions, and refine gameplay strategies, all while contributing to the broader discourse on network theory in complex systems.
+Welcome to ANTwarfare, an innovative project that applies computational modeling and [Actor-Network Theory (ANT)](https://en.wikipedia.org/wiki/Actor%E2%80%93network_theory) to the complex, multiplayer game environment of [Foxhole](https://foxhole.wiki.gg/wiki/Foxhole_Wiki). This initiative aims to dissect and enhance understanding of the intricate interactions among players, resources, territories, and infrastructures within the game. Through ANTwarfare, we explore effective strategies, predict outcomes of specific actions, and refine gameplay strategies, all while contributing to the broader discourse on network theory in complex systems.
+
+> [!NOTE]  
+This is an early stage project and the current code is still based in theory. There will be an update in the projects [Discussions](https://github.com/444B/ANTwarfare/discussions) once we have an MVP that achieved one of many of the objectives below. Please feel free to get involved or share the project, which is set up for open source collaboration and a community effort.
 
 ## Background
 Foxhole is a multiplayer game that requires strategic collaboration and competition, involving dynamic interactions that make it an ideal candidate for computational modeling and ANT analysis. ANT, a framework that treats humans and non-humans (e.g., technologies, objects) equally as actors in a network, offers a unique lens through which to examine the game's social and material dynamics.
+The main way of understanding the Actors is from data collected via the Official [Foxhole WarAPI v1](https://github.com/clapfoot/warapi) 
+
+## Design
+Go's concurrency features, along with structs and interfaces, can effectively model real-time dynamics and is suitable for the application of ANT to Foxhole:
+- Structs for Actors: Define structs for each actor type (players, resources, territories) with fields representing their state and properties.
+- Interfaces for Actions: Use interfaces to define common actions (e.g., attack, defend, gather) that actors can perform, allowing for polymorphism.
+- Concurrency for Real-Time Dynamics: Utilize Go's goroutines and channels to simulate concurrent actions and interactions among actors, reflecting the game's real-time nature.
 
 ## Objectives
 - **To identify effective strategies** for players within the Foxhole game environment.
