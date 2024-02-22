@@ -54,7 +54,7 @@ type Interaction struct {
 // Actors represent all actors in the network, whether human or non-human.
 type Actor struct {
 	ID           string  `json:"id"`       // Unique ID for the Actant
-	Type         string  `json:"iconType"` // IDs of the actors involved
+	Type         string  `json:"iconType"` // The type of actor, if non-human
 	Location     Point   `json:"location"` // Where the Actant is located, if applicable
 	Faction      Faction `json:"faction"`  // Controlling faction, if applicable
 }
