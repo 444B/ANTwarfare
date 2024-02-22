@@ -45,7 +45,7 @@ type Point struct {
 
 // Interaction represents an event or relationship between actors.
 type Interaction struct {
-	Type         string   // The type of interaction (e.g., conflict, alliance)
+	Type         string   // The type of interaction (e.g., problematization, interessement, enrollment, mobilization)
 	Participants []string // IDs of the actors involved
 	Location     Point    // Where the interaction takes place, if applicable
 	Timestamp    int64    // When the interaction occurred
