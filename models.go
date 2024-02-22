@@ -45,8 +45,16 @@ type Point struct {
 
 // Interaction represents an event or relationship between actors.
 type Interaction struct {
-	Type         string   // The type of interaction (e.g., conflict, alliance)
+	Type         string   // The type of interaction (e.g., problematization, interessment, enrollment, mobilization)
 	Participants []string // IDs of the actors involved
 	Location     Point    // Where the interaction takes place, if applicable
 	Timestamp    int64    // When the interaction occurred
+}
+	
+// Actors represent all actors in the network, whether human or non-human.
+type Actor struct {
+	ID           string  `json:"id"`       // Unique ID for the Actant
+	Type         string  `json:"iconType"` // IDs of the actors involved
+	Location     Point   `json:"location"` // Where the Actant is located, if applicable
+	Faction      Faction `json:"faction"`  // Controlling faction, if applicable
 }
